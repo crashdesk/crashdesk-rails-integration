@@ -2,9 +2,9 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    raise Exception.new('test')
     @users = User.all
 
+    raise Exception.new('Second exception')
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @users }

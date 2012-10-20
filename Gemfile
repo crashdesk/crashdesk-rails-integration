@@ -8,7 +8,10 @@ gem 'rails', '~>3.2'
 gem 'sqlite3'
 
 gem 'yajl-ruby' # Json Serializer dependency
-gem 'crashdesk-rails'
+gem 'crashdesk', :path => '~/Projects/crashdesk/crashdesk-ruby', :require => 'crashdesk'
+gem 'crashdesk-rack', :path => '~/Projects/crashdesk/crashdesk-rack', :require => 'crashdesk-rack'
+gem 'crashdesk-rails', :path => '~/Projects/crashdesk/crashdesk-rails', :require => 'crashdesk-rails'
+#gem 'crashdesk-rails'
 gem 'debugger'
 
 # Gems used only for assets and not required

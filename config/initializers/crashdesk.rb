@@ -1,3 +1,5 @@
 Crashdesk.configure do |config|
-  config.app_key = '5065881ef9fd603e7f000002'
+  config.host = '0.0.0.0'
+  config.port = '4567'
+  config.app_key = '50798a2a7575b8ab0b000002'
 end
